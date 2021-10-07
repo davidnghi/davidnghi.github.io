@@ -2,3 +2,208 @@
 	margin: 0;
 	padding: 0;
 }
+
+
+body,html{
+	width: 100%;
+	height: 100%; 
+}
+/*menu top*/
+nav.navbar.navbar-expand-lg.navbar-fixed-top {
+    background: black;
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+	*{}
+
+	.bg-skill {
+	    text-align: center;
+	}
+
+	.bg-thongtin a.btn-hime.btn.btn-primary {
+	    width: 25%;
+	    padding: 5px 0;
+	    margin: auto;
+	}
+
+	.bg-thongtin p {
+		line-height: 20px !important;
+		width: 80% !important;
+		margin: auto !important;
+	}
+
+	.bg-thongtin {
+	}
+
+	.bg-thongtin h2 {
+	    font-size: 30px !important;
+	    margin: 5px 0;
+	}
+
+	.bg-thongtin {
+	    text-align: center;
+	    top: 0;
+	    left: 0;
+	    margin-top: 0%;
+	}
+	/*responsive menutop*/
+	button.navbar-toggler{
+		background-color: transparent;
+		border: 1px solid #beb312;
+	}
+	span.navbar-toggler-icon{
+		background-color:#beb312;
+		border-radius: 5px;
+		
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	/*button.navbar-toggler{
+		color: red;
+	}*/
+}
+
+ul a.nav-link {
+    color: #beb312;
+    margin: 0;
+    padding: 0 15px;
+    font-family: segoe-iu;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/*khoi vang*/
+.bg-vang {
+    background: #898000c7;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg-vang:before {
+	content: "";
+    background: #898000c7;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.bg-thongtin{
+	position: relative;
+	z-index: 2;
+	padding-top: 8%;
+}
+.bg-thongtin img{
+	border-radius: 50%;
+	height: 300px;
+}
+.bg-thongtin h2{
+	text-transform: uppercase;
+	color: white;
+	font-size: 40px;
+	margin-bottom: 20px;
+
+}
+.bg-thongtin p{
+	color: black;
+	line-height: 20px;
+	font-size: 14px;
+	margin-bottom: 30px;
+	width: 45%;
+	margin:auto;
+}
+.bg-thongtin a.btn-hime{
+	background: black;
+	color: white;
+	padding: 10px,0;
+	width: 15%;
+	margin-top: 30px;
+	border-radius: 5px;
+	
+}
+
+
+.title-big{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+.title-big h1 {
+    display: inline;
+    text-transform: uppercase;
+    background: url(../images/line-skill.jpg) no-repeat left bottom -12px;
+    font-size: 50px;
+    padding: 5px 0;
+    margin-bottom: auto;
+}
+
+.title-small p.discriptions {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+.title-small span.title-left-discprition {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.title-small h3.title-left-info {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #ed333a;
+}
+
+.title-small {
+    margin-bottom: 20px;
+}
+
+h2.title-left {
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-family: segeo ui-monospace;
+    text-transform: uppercase;
+}
+
+span.title-bold {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: segeo ui-monospace;
+}
+
+.cot-image img.img-fluid {
+    height: 100%;
+}
+
+.btn-down{
+	width: 40px;
+	height: 75px;
+	border: white solid 1px;
+	position: absolute;
+	left: 50%;
+	border-radius: 30px;
+	bottom: 10%;
+	margin-left: -1%;
+	z-index: 2;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.btn-down:after{
+	content: "";
+	position: absolute;
+	width: 3px;
+	height: 8px;
+	background: white;
+	left: 50%;
+	bottom: 65%;
+	margin-left: -2px;
+}
+.btn-down:hover{
+	bottom: 4%;
+}
