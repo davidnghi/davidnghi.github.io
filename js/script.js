@@ -2,10 +2,16 @@ $(function(){
 	var position = $('#id-skill').offset().top;
 	//console.log(position);
 	$('.btn-down').click(function(){
-		$('body,html').animate({scrollTop:position},600)
+		$('body,html').animate({scrollTop:position},600);
+		return false;
 	})
 
-
+	var pos_cm = $('#id-comment').offset().top;
+	//console.log(position);
+	$('.menu-comment').click(function(){
+		$('body,html').animate({scrollTop:pos_cm},600);
+		return false;
+	})
 		//Get the button
 	let mybutton = document.getElementById("btn-back-to-top");
 

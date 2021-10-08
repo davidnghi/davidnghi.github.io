@@ -16,7 +16,9 @@
 	<title>Profile Dang Quang Nghi</title>
 </head>
 <body>
-
+	<!-- comment facebook -->
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0&appId=576477570358820&autoLogAppEvents=1" nonce="C0WKTOTx"></script>
 
 	<div class="menutop">
 		<nav class="navbar navbar-expand-lg navbar-fixed-top">
@@ -30,19 +32,19 @@
 				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="nav navbar-light float-md-right">
 				      	<li class="nav-item active">
-				        	<a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+				        	<a class="nav-link menu-about" href="#">About <span class="sr-only">(current)</span></a>
 				      	</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Skill</a>
+							<a class="nav-link menu-skill" href="#">Skill</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Product</a>
+							<a class="nav-link menu-product" href="#">Product</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item menu-contact">
 							<a class="nav-link" href="#">Contact</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Comment</a>
+							<a class="nav-link menu-comment" href="#">Comment</a>
 						</li>
 				    </ul>
 				    
@@ -162,6 +164,20 @@
 		</div>
 	</div>
 	<!-- end skill -->
+	<div class="bg-comment" id="id-comment">
+		<div class="container text-md-center">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="title-cm">
+						Comment
+					</h1>
+				</div>
+				<div class="col-md-8 push-md-2">
+					<div class="fb-comments" data-href="https://davidnghi.github.io/" data-width="960" data-numposts="5"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- Back to top button -->
 	<button
 	        type="button"
